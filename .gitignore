@@ -1,8 +1,19 @@
+# C++ / C# 构建产物
 build/
 cmake-build-*/
-*.exe
+out/
 *.o
 *.obj
+*.exe
+*.pdb
+*.ilk
+*.exp
+bin/
+obj/
+.vs/
+*.user
+
+# 编辑器与系统文件
 .vscode/
 .DS_Store
 Thumbs.db
